@@ -37,7 +37,6 @@ project "02. Draw line"
       files { "src/draw_line.h", "src/draw_line.cpp" }
       files { "src/draw_line_main.cpp" }
 
---[[
 project "03. Projections"
    kind "ConsoleApp"
       includedirs { "src/" }
@@ -50,6 +49,7 @@ project "03. Projections"
       files { "src/projections.h", "src/projections.cpp" }
       files { "src/projections_main.cpp" }
 
+--[[
 project "04. Triangle rasterization"
    kind "ConsoleApp"
       includedirs { "src/" }
